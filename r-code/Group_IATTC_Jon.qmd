@@ -1,0 +1,32 @@
+# Group  
+
+## Members  
+
+- **Carolina Minte-Vera**: Inter-American Tropical Tuna Commission
+
+## Species of interest  
+
+![Striped Marlin](https://www.shogunsportfishing.com/striped-marlin.html)  
+
+## Most used function  
+```r
+################################################################################################
+# normalize
+################################################################################################
+normalize <- function(x) {
+return((x - min(x)) / (max(x) - min(x)))
+}
+
+################################################################################################
+# unnormalize
+################################################################################################
+unnormalize <- function(x,y) {
+return((x * (max(y) - min(y)) + min(y)))
+}
+```
+
+## Three things I want to learn from this workshop
+
+- [ ] Tools for reproducible research and assessments
+- [ ] Run SS3 in Codespace
+- [ ] Modify SS3 inputs within R code
